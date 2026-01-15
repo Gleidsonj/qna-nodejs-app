@@ -1,6 +1,10 @@
 let express = require("express");
 let app = express();
 
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config(); // só local
+}
+
 const connection = require("./database/database"); // aqui importamos a nossa conexão, o sequelize
 const Pergunta = require("./database/Perguntas"); // exportando model de perguntas
 const Resposta = require("./database/Resposta");
