@@ -18,7 +18,7 @@ Esse projeto foi muito importante para consolidar meus estudos em Node.js, Expre
 
 ---
 
-##  Tecnologias
+## 🛠 Tecnologias Utilizadas
 
 - Node.js  
 - Express  
